@@ -29,3 +29,9 @@ class LSRequest(object):
 # cifuUrlStr = 'http://172.10.3.75:80/blessing/requestBlessing.do?userCertificate=A8AC2E3437C415EF2AC6D60BD3E3A6E3&toUserId=7'
 # request = LSRequest(cifuUrlStr)
 # print(request.startRequest())
+
+cifuUrlStr = 'http://www.baidu.com'
+request = LSRequest(cifuUrlStr)
+print(request.startRequest())
+
+
